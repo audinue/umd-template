@@ -26,7 +26,7 @@
       // seee https://github.com/facebook/react/issues/3037
       g = this;
     }
-    g[name] = f.apply(null, requires.map(function(r) { return require(r); }));
+    g[name] = f.apply(null, requires.map(function(r) { return g[r]; }));
   }
 
 })(function () {
