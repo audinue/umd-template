@@ -1,3 +1,4 @@
+// From: https://raw.githubusercontent.com/chilts/umd-template/master/template.js
 ;(function (f) {
   // module name and requires
   var name = '';
